@@ -15,7 +15,8 @@
 
 html,body{
     height:100%;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 header{
@@ -46,7 +47,7 @@ section.sobre{
     position: relative;
 }
 
-.extras {
+ .extras{
     position: absolute;
     bottom:-450px;
     right:-500px;
